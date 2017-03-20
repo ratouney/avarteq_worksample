@@ -1,7 +1,11 @@
 defmodule ElixirWorksample.Step2 do
     def i_am([]) do
         "empty list"    
-    end 
+    end
+
+    def i_am([data]) do
+        "list with one argument"
+    end
 
     def i_am(data) when is_list(data) do
         "list"
