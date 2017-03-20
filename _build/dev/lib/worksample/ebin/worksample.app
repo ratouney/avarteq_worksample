@@ -2,7 +2,11 @@
              [{registered,[]},
               {description,"worksample"},
               {vsn,"0.1.0"},
+<<<<<<< HEAD
               {modules,['Elixir.ElixirWorksample.Step1',
                         'Elixir.ElixirWorksample.Step2',
                         'Elixir.ElixirWorksample.Step3','Elixir.Worksample']},
+=======
+              {modules,['Elixir.ElixirWorksample.Step2','Elixir.Worksample']},
+>>>>>>> step_2
               {applications,[kernel,stdlib,elixir,logger]}]}.
