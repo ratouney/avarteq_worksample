@@ -15,11 +15,10 @@ defmodule ElixirWorksample.Step3 do
     end
 
     def uniq_words(string) when is_bitstring(string) do
-       list = String.split(string, [" ", ","])
+       list = String.split(string, [" "])
        list = Enum.uniq(list)
 
        Enum.each(list, fn(x) -> IO.puts("[" <> x <> "]") end)
-       list = list -- [Enum.min_by(list, fn(x) -> String.length(x) end)]
        
        endlist = []
        endlist = input(endlist, list)
