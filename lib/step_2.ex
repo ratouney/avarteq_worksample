@@ -15,6 +15,10 @@ defmodule ElixirWorksample.Step2 do
         "string"
     end
 
+    def i_am(data) do
+    	"undefined"
+    end
+
     def i_am() do
         "Nothing"
     end
