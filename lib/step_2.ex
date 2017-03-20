@@ -4,6 +4,7 @@ defmodule ElixirWorksample.Step2 do
     end
 
     def i_am([data]) do
+        Enum.each(data, fn(x) -> x end)
         "list with one argument"
     end
 
@@ -20,6 +21,7 @@ defmodule ElixirWorksample.Step2 do
     end
 
     def i_am(data) do
+        Enum.each(data, fn(x) -> x end)
     	"undefined"
     end
 
